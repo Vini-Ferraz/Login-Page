@@ -29,7 +29,7 @@ body {
     background-color: #c9c9c9;
     margin: auto;
     margin-top: 10vh;
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 2vh;
     box-shadow: #da1e1e 15px 15px;
 }
@@ -76,7 +76,7 @@ input {
 #botao {
     font-family: 'Quicksand', sans-serif;
     margin-top: 2vh;
-    border-radius: 15px;
+    border-radius: 5px;
     border-style: solid;
     padding: 2%;
     font-size: 3vh;
