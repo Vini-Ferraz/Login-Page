@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+@keyframes aumentar {
+    0% {
+        background-color: #141414;
+    }
+
+    50% {
+        background-color: #6c7bff;
+    }
+
+    100% {
+        background-color: #141414;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(14, 14, 14);
+}
+
+.caixa-login {
+    width: 35vw;
+    height: 80vh;
+    background-color: #c9c9c9;
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 15px;
+    padding: 2vh;
+    box-shadow: #da1e1e 15px 15px;
+}
+
+#caixa-login-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.texto {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.texto.login {
+    font-size: 7vh;
+    margin-bottom: 2vh;
+}
+
+.texto.paragrafo {
+    font-size: 3.5vh;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+::placeholder{
+    font-family: 'Quicksand', sans-serif;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: inherit;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3.5vh;
+    text-align: center;
+}
+
+#botao {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 2vh;
+    border-radius: 15px;
+    border-style: solid;
+    padding: 2%;
+    font-size: 3vh;
+    color:rgb(235, 235, 235);
+    background-color: #141414;
+}
+
+#botao:hover {
+    animation: aumentar 2s linear infinite;
+}
+
+#botao-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
